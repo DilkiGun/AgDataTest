@@ -1,0 +1,207 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Angular\\AgData\\UserManagementApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|solutionrelative:usermanagementapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D33B1FF-FE1F-48C3-BB95-4EF517296800}|UserManagement.Repositories\\UserManagement.Repositories.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D33B1FF-FE1F-48C3-BB95-4EF517296800}|UserManagement.Repositories\\UserManagement.Repositories.csproj|solutionrelative:usermanagement.repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D33B1FF-FE1F-48C3-BB95-4EF517296800}|UserManagement.Repositories\\UserManagement.Repositories.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D33B1FF-FE1F-48C3-BB95-4EF517296800}|UserManagement.Repositories\\UserManagement.Repositories.csproj|solutionrelative:usermanagement.repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.business\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|solutionrelative:usermanagement.business\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.business\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|solutionrelative:usermanagement.business\\interfaces\\inotificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC95AE7-0C75-41EF-8913-F73109F87522}|UserManagement.Core\\UserManagement.Core.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.core\\utilities\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC95AE7-0C75-41EF-8913-F73109F87522}|UserManagement.Core\\UserManagement.Core.csproj|solutionrelative:usermanagement.core\\utilities\\notificationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.business\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0125778E-173E-45B4-A6C9-29F380C3A5B3}|UserManagement.Business\\UserManagement.Business.csproj|solutionrelative:usermanagement.business\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCC95AE7-0C75-41EF-8913-F73109F87522}|UserManagement.Core\\UserManagement.Core.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagement.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BCC95AE7-0C75-41EF-8913-F73109F87522}|UserManagement.Core\\UserManagement.Core.csproj|solutionrelative:usermanagement.core\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagementapi\\utilities\\userserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|solutionrelative:usermanagementapi\\utilities\\userserializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagementapi\\utilities\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|solutionrelative:usermanagementapi\\utilities\\uservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|d:\\angular\\agdata\\usermanagementapi\\usermanagementapi\\usermanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D163160B-429C-453F-8E48-83C8367055A5}|UserManagementApi\\UserManagement.Api.csproj|solutionrelative:usermanagementapi\\usermanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "INotificationService.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\Interfaces\\INotificationService.cs",
+              "RelativeDocumentMoniker": "UserManagement.Business\\Interfaces\\INotificationService.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\Interfaces\\INotificationService.cs",
+              "RelativeToolTip": "UserManagement.Business\\Interfaces\\INotificationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:50:57.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "UserManagement.Business\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "UserManagement.Business\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:48:02.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "UserManagement.Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "UserManagement.Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:09:29.631Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "UserManagement.Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Repositories\\UserRepository.cs",
+              "RelativeToolTip": "UserManagement.Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:02:48.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "UserManagementApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "UserManagementApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwCsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:55:34.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\UserService.cs",
+              "RelativeDocumentMoniker": "UserManagement.Business\\UserService.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Business\\UserService.cs",
+              "RelativeToolTip": "UserManagement.Business\\UserService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:07:58.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Core\\Utilities\\NotificationService.cs",
+              "RelativeDocumentMoniker": "UserManagement.Core\\Utilities\\NotificationService.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Core\\Utilities\\NotificationService.cs",
+              "RelativeToolTip": "UserManagement.Core\\Utilities\\NotificationService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:12:05.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Core\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "UserManagement.Core\\Models\\UserModel.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagement.Core\\Models\\UserModel.cs",
+              "RelativeToolTip": "UserManagement.Core\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:13:24.617Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserSerializer.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Utilities\\UserSerializer.cs",
+              "RelativeDocumentMoniker": "UserManagementApi\\Utilities\\UserSerializer.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Utilities\\UserSerializer.cs",
+              "RelativeToolTip": "UserManagementApi\\Utilities\\UserSerializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:01:07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserValidator.cs",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Utilities\\UserValidator.cs",
+              "RelativeDocumentMoniker": "UserManagementApi\\Utilities\\UserValidator.cs",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\Utilities\\UserValidator.cs",
+              "RelativeToolTip": "UserManagementApi\\Utilities\\UserValidator.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T09:00:27.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserManagement.Api",
+              "DocumentMoniker": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\UserManagement.Api.csproj",
+              "RelativeDocumentMoniker": "UserManagementApi\\UserManagement.Api.csproj",
+              "ToolTip": "D:\\Angular\\AgData\\UserManagementApi\\UserManagementApi\\UserManagement.Api.csproj",
+              "RelativeToolTip": "UserManagementApi\\UserManagement.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-08T08:41:47.739Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
