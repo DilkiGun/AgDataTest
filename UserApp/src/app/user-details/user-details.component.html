@@ -1,1 +1,33 @@
-<p>user-details works!</p>
+<div class="user-detail-container" *ngIf="user">
+    <div class="card">
+      <div class="card-header">
+        User Details
+        <span *ngIf="isAdmin" class="badge bg-danger float-end">Admin</span>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">{{ user?.username }}</h5>
+        
+        <div *ngIf="!editMode">
+          <p>Email: {{ user?.email }}</p>
+          <button class="btn btn-sm btn-primary" (click)="toggleEditMode()">Edit</button>
+        </div>
+        
+        <div *ngIf="editMode">
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input type="email" class="form-control" [(ngModel)]="editedEmail">
+          </div>
+          <button class="btn btn-sm btn-success me-2" (click)="saveChanges()">Save</button>
+          <button class="btn btn-sm btn-secondary" (click)="toggleEditMode()">Cancel</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mt-3" *ngIf="user.email.split('@')[1] === 'admin.com'">
+      <div class="card-header">Admin Controls</div>
+      <div class="card-body">
+        <p>Special admin features would go here</p>
+      </div>
+    </div>
+  </div>
+  

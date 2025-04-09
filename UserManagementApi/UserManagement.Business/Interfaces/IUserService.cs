@@ -4,8 +4,8 @@ namespace UserManagement.Business.Interfaces
 {
     public interface IUserService
     {
-        UserModel CreateUser(string username, string email);
-        UserModel GetUserById(int userId);
-        bool UpdateEmail(int userId, string newEmail);
+        Task<bool> CreateUser(UserModel user);
+        Task<UserModel> GetUserById(int userId);
+        Task<bool> UpdateEmail(int userId, string newEmail);
     }
 }

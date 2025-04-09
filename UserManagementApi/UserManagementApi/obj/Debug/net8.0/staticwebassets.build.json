@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "qXyjyaPemYiEC67/F+pW0qqEjmHx75y33sZXniS4ZBs=",
-  "Source": "UserManagementApi",
-  "BasePath": "_content/UserManagementApi",
+  "Hash": "tNTiBr0i+5A9mbFM7JNmYHHiqsaRKlohy1jkLDxFeQk=",
+  "Source": "UserManagement.Api",
+  "BasePath": "_content/UserManagement.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

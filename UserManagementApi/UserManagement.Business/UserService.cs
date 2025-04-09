@@ -3,6 +3,7 @@ using UserManagement.Api.Utilities;
 using UserManagement.Business.Interfaces;
 using UserManagement.Core.Utilities;
 using UserManagement.Repositories.Interfaces;
+using UserManagement.Repositories.Models;
 
 namespace UserManagement.Business
 {
@@ -15,24 +16,25 @@ namespace UserManagement.Business
             _repository = repository;
         }
 
-        public UserModel CreateUser(string username, string email)
+        public async Task<bool> CreateUser(UserModel user)
         {
-            var user = new UserModel(username, email);
-            return _repository.Save(user) ? user : null;
+            UserDto userDto = new UserDto() { Email = user.Email, Username = user.Username };
+            return await _repository.Save(userDto);
         }
 
-        public UserModel GetUserById(int userId)
+        public async Task<UserModel> GetUserById(int userId)
         {
-            return _repository.FindById(userId);
+            UserDto user = await _repository.FindById(userId);
+            return new UserModel(userId, user.Username, user.Email);
         }
 
-        public bool UpdateEmail(int userId, string newEmail)
+        public async Task<bool> UpdateEmail(int userId, string newEmail)
         {
-            var user = _repository.FindById(userId);
+            var user = await _repository.FindById(userId);
             if (user == null) return false;
 
             user.Email = newEmail;
-            return _repository.Save(user);
+            return await _repository.Save(user);
         }
     }
 }

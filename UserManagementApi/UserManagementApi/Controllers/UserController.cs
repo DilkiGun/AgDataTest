@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using UserManagement.Api.Models;
 using UserManagement.Business.Interfaces;
+using UserManagement.Core.Models;
 using UserManagement.Core.Utilities;
 
 namespace UserManagementApi.Controllers
@@ -10,61 +11,76 @@ namespace UserManagementApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-        private readonly IUserView _view;
+        //private readonly IUserView _view;
         private readonly INotificationService _notificationService;
 
-        public UserController(IUserService userService, IUserView view, INotificationService notificationService)
+        public UserController(IUserService userService, INotificationService notificationService)
         {
             _userService = userService;
-            _view = view;
+            //_view = view;
             _notificationService = notificationService;
         }
 
-        [HttpPost("create")]
-        public IActionResult CreateUser(string username, string email)
+        private static readonly List<UserModel> Users = new()
         {
-            if (username.Length < 3)
+            new UserModel ( 1,  "Alice","alice@example.com" ),
+            new UserModel ( 2,  "Bob", "bob@example.com"),
+            new UserModel ( 3, "Charlie",  "charlie@example.com" ),
+            new UserModel ( 4,  "AdminUser",  "admin@admin.com" )
+        };
+
+        [HttpGet]
+        public ActionResult<IEnumerable<UserModel>> GetUsers()
+        {
+            return Ok(Users);
+        }
+
+
+        [HttpPost("create")]
+        public async Task<IActionResult> CreateUser(UserModel user)
+        {
+            if (user.Username.Length < 3)
             {
                 return BadRequest(new { Success = false, Error = "Username too short" });
             }
 
-            var user = _userService.CreateUser(username, email);
-            if (user != null)
+            var isUserCreated = await _userService.CreateUser(user);
+            if (isUserCreated)
             {
-                _notificationService.SendWelcomeEmail(user);
-                return Ok(new { Success = true, Html = _view.DisplayUserProfile(user) });
+                 _notificationService.SendWelcomeEmail(user);
+                return Ok(new { Success = true, Data= user });
             }
 
             return BadRequest(new { Success = false, Error = "Failed to save user" });
         }
 
         [HttpGet("profile/{userId}")]
-        public IActionResult GetUserProfile(int userId)
+        public async Task<IActionResult> GetUserProfile(int userId)
         {
-            var user = _userService.GetUserById(userId);
+            var user = await _userService.GetUserById(userId);
             if (user != null)
             {
-                return Ok(new { Success = true, Html = _view.DisplayUserProfile(user) });
+                return Ok(new { Success = true, Data = UserViewModel.FromModel(user) });
             }
 
             return NotFound(new { Success = false, Error = "User not found" });
         }
 
         [HttpPost("update-email")]
-        public IActionResult UpdateEmail(int userId, string newEmail)
+        public async Task<IActionResult> UpdateEmail(int userId, string newEmail)
         {
-            var user = _userService.GetUserById(userId);
+            var user = await _userService.GetUserById(userId);
             if (user == null)
             {
                 return BadRequest(new { Success = false, Error = "No user selected" });
             }
 
-            if (!_userService.UpdateEmail(userId, newEmail))
+            if (!await _userService.UpdateEmail(userId, newEmail))
             {
                 return BadRequest(new { Success = false, Error = "Failed to update email" });
             }
 
-            return Ok(new { Success = true, Html = _view.DisplayUserProfile(user) });
+            return Ok(new { Success = true, Html = "_view.DisplayUserProfile(user)" });
         }
     }
 

@@ -9,8 +9,9 @@ namespace UserManagement.Api.Models
         public string Username { get; private set; }
         public string Email { get; private set; }
 
-        public UserModel(string username, string email)
+        public UserModel(int? id, string username, string email)
         {
+            Id = id;
             Username = username;
             Email = email;
         }

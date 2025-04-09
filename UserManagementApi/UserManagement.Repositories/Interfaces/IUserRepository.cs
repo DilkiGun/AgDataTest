@@ -4,13 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using UserManagement.Api.Models;
+using UserManagement.Repositories.Models;
 
 namespace UserManagement.Repositories.Interfaces
 {
     public interface IUserRepository
     {
-        bool Save(UserModel user);
-        UserModel FindById(int id);
+
+        Task<bool> Save(UserDto user);
+        Task<UserDto?> FindById(int id);
+
 
     }
 }

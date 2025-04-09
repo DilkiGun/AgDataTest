@@ -1,0 +1,12 @@
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.deps.json
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.dll
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\bin\Debug\net8.0\UserManagement.Core.pdb
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfoInputs.cache
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.AssemblyInfo.cs
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.csproj.CoreCompileInputs.cache
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.sourcelink.json
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.dll
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\refint\UserManagement.Core.dll
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\UserManagement.Core.pdb
+D:\Angular\AgData\UserManagementApi\UserManagement.Core\obj\Debug\net8.0\ref\UserManagement.Core.dll

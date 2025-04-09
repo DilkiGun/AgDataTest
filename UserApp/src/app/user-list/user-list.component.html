@@ -1,1 +1,61 @@
-<p>user-list works!</p>
+<div class="container">
+    <div *ngIf="isLoading" class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  
+    <div class="row mb-3">
+      <div class="col">
+        <input type="text" class="form-control" placeholder="Filter users..."
+               (input)="filterUsers($event)">
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            User List
+          </div>
+          <div class="card-body">
+            <ul class="list-group">
+              <li *ngFor="let user of filteredUsers; trackBy: trackById"
+                  class="list-group-item"
+                  [class.active]="selectedUser?.id === user.id"
+                  (click)="selectedUser = user">
+                {{ user.username }} ({{ user.email }})
+                <span *ngIf="user.email.endsWith('@admin.com')" class="badge bg-danger">Admin</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-header">
+            Create New User
+          </div>
+          <div class="card-body">
+            <form [formGroup]="userForm">
+              <div class="mb-3">
+                <label class="form-label">Username</label>
+                <input type="text" class="form-control" formControlName="username">
+                <div *ngIf="userForm.controls['username'].invalid && userForm.controls['username'].touched" class="text-danger">
+                  Username must be at least 3 characters
+                </div>
+              </div>
+              <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" formControlName="email">
+                <div *ngIf="userForm.controls['email'].invalid && userForm.controls['email'].touched" class="text-danger">
+                  Invalid email format
+                </div>
+              </div>
+              <button class="btn btn-primary" [disabled]="userForm.invalid" (click)="createUser()">Create User</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
