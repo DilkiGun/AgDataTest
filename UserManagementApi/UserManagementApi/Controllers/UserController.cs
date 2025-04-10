@@ -11,13 +11,11 @@ namespace UserManagementApi.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserService _userService;
-        //private readonly IUserView _view;
         private readonly INotificationService _notificationService;
 
         public UserController(IUserService userService, INotificationService notificationService)
         {
-            _userService = userService;
-            //_view = view;
+            _userService = userService;           
             _notificationService = notificationService;
         }
 
@@ -47,8 +45,8 @@ namespace UserManagementApi.Controllers
             var isUserCreated = await _userService.CreateUser(user);
             if (isUserCreated)
             {
-                 _notificationService.SendWelcomeEmail(user);
-                return Ok(new { Success = true, Data= user });
+                _notificationService.SendWelcomeEmail(user);
+                return Ok(new { Success = true, Data = user });
             }
 
             return BadRequest(new { Success = false, Error = "Failed to save user" });

@@ -42,3 +42,7 @@ testem.log
 Thumbs.db
 
 .vs
+.obj
+UserManagementApi/.vs/UserManagementApi/v17/.suo
+UserManagementApi/.vs/ProjectEvaluation/usermanagementapi.metadata.v9.bin
+UserManagementApi/.vs/UserManagementApi/v17/.futdcache.v2
